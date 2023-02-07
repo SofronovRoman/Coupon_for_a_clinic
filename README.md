@@ -8,8 +8,8 @@ $ python3 -m pip install -r requirements.txt
 ```
 
 ## Конфигурация
-Установите Chrome [Chrome](https://www.google.com/intl/ru/chrome/), если он у вас еще не установлен.
-Если необходимо оповещение в Telegram о результатах работы скрипта, то необходимо в папку "TG_session" поместить файл Telegram-сессии клиента с расширением ".session". Если необходимо создание файла Telegram-сессии, то следуйте инструкции на [https://core.telegram.org/api/obtaining_api_id](https://core.telegram.org/api/obtaining_api_id). После получения api_id и api_hash сессию также можно создать с использованием скрипта в "TG_session\create_session.py". При использовании данного скрипта файл Telegram-сессии создается в папке "TG_session".  
+Установите [Chrome](https://www.google.com/intl/ru/chrome/), если он у вас еще не установлен.
+Если необходимо оповещение в Telegram о результатах работы скрипта, то необходимо в папку "TG_session" поместить файл Telegram-сессии клиента с расширением ".session". Если необходимо создание файла Telegram-сессии, то следуйте инструкции на [https://core.telegram.org/api/obtaining_api_id](https://core.telegram.org/api/obtaining_api_id). После получения api_id и api_hash сессию также можно создать с использованием скрипта в "TG_session\create_session.py". При использовании данного скрипта файл Telegram-сессии создается в папке "TG_session". При первом использовании скрипта вход на сайт будет осуществлен по данным полиса с сохранением файла "cookies\cookies.txt", дальнейший вход будет осуществляться с использованием файла cookies.
 
 ## Использование
 ```ruby
